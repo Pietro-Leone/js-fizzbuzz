@@ -5,3 +5,36 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #083b4c;
+}
+
+.block-container {
+    gap: 1rem;
+}
+
+.block {
+    display: flex;
+    width: calc((100% / 7) - 1rem);
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.ms-color-blu {
+    background-color: #1389b2;
+}
+
+.ms-color-green {
+    background-color: #0cd6a1;
+}
+
+.ms-color-yellow {
+    background-color: #ffd166;
+}
+
+.ms-color-red {
+    background-color: #f0466f;
+}
